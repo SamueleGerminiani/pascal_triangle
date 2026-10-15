@@ -1,7 +1,7 @@
 NAME=pascal
 CFLAGS=-Wall -std=c99
 INCLUDE=-I./include
-SRCS=src/main.c src/triangle.c src/printer.c
+SRCS=src/main.c src/triangle.c src/printer.c src/vault.c
 
 OBJS=$(SRCS:.c=.o)
 

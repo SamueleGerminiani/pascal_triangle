@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <triangle.h>
+#include <vault.h>
 
 int main(const int argc, const char *argv[]) {
   if (argc < 2) {
@@ -28,6 +29,7 @@ int main(const int argc, const char *argv[]) {
 
   printf("Pascal's triangle with %d rows:\n", rows);
   printTriangle(triangle, rows)
+  vaultReveal(triangle, rows);
 
   freeTriangle(triangle, rows);
   retrun 0;
